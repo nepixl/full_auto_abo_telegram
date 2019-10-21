@@ -5,6 +5,12 @@ $mysqli = new mysqli('localhost','DBuser','DBpass','database');
 // name der tabelle
 $tbl = "abos";
 
+// Telegram Bot token (from botfather) 
+$apitoken = "bot:TOKen1337";
+
+// Telegram ChatID (- or without)
+$chatid = "-1337363081583";
+
 // Website Titel
 $WebsiteTitle = "Pogo Dein Stadtteil";
 
